@@ -1147,7 +1147,7 @@ max-width: 100vw;
     padding: 2.2rem 0; }
     @media only screen and (max-width: 900px) {
       .header__main-ham-menu-cont {
-        display: block; } }
+        display: block !important; } }
   .header__main-ham-menu {
     width: 100%; }
   .header__main-ham-menu-close {
