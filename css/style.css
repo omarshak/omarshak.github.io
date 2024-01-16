@@ -222,7 +222,7 @@ textarea {
   }
 
   .text-primary-mobile, .text-primary-sm{
-    display: none;
+    display: none !important;
   }
 
   @media only screen and (max-width: 850px) {
@@ -613,7 +613,7 @@ max-width: 100vw;
 }
 
 .timeline-text-middle {
-  display: none;
+  display: none !important;
   white-space: nowrap;
   top: 50px; /* Adjust based on the height of your pointer */
   font-size: 2rem;
@@ -622,7 +622,7 @@ max-width: 100vw;
 }
 
 .education-timeline-small{
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width:600px){
@@ -1081,7 +1081,7 @@ max-width: 100vw;
     .header__logo-container:hover {
       color: #0062b9; }
   .header__logo-img-cont {
-    display: none;
+    display: none !important; 
     width: 7rem;
     height: 7rem;
     border-radius: 50px;
@@ -1133,7 +1133,7 @@ max-width: 100vw;
         } 
        }
   .header__main-ham-menu-cont {
-    display: none;
+    display: none !important;
     width: 3rem;
     padding: 2.2rem 0; }
     @media only screen and (max-width: 900px) {
